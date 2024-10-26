@@ -44,7 +44,7 @@ const footerData = [
     links: [
       { name: "About Xandre", url: "/about" },
       { name: "How we work", url: "/how-we-work" },
-      { name: "Careers", url: "/career/apply" },
+      { name: "Careers", url: "/career" },
       { name: "Investor relations", url: "/investor-relation" }
     ]
   }
