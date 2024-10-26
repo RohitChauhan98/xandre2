@@ -2,7 +2,6 @@
 
 import Footer from "@/components/ui/Footer";
 import Navbar from "@/components/navbars/Navbar";
-import { useTranslations } from "next-intl";
 import ButtonDark from "@/components/ui/buttons/ButtonDark";
 import { useState } from "react";
 
@@ -161,7 +160,6 @@ const About_Sections = [
 
 export default function About() {
   const [currentSection, setCurrentSection] = useState<String>("About Xandre");
-  const t = useTranslations("HomePage");
 
   return (
     <div>

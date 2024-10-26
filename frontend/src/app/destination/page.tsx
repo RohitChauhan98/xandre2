@@ -1,6 +1,6 @@
 
 import Hero from "@/components/hero";
-import downArrow from '../../../../public/assets/downArrow.png'
+import downArrow from '/public/assets/downArrow.png'
 import HotelCard from "@/components/destination/hotelCard";
 import PriceRangeSelector from "@/components/destination/priceRanceSelector";
 import Footer from "@/components/ui/Footer";

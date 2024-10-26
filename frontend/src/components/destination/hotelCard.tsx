@@ -36,7 +36,7 @@ export default function HotelCard() {
             <p className="text-input-300 w-[450px] my-4">Featuring free WiFi, Business Inn Sennichimai Hotel offers accommodation in Osaka, 300 meters from Glico Man Sign. There is a shared lounge at the property</p>
 
             <div className="flex justify-between items-center">
-                <div onClick={()=>{router.push('/en/property')}}>
+                <div onClick={()=>{router.push('/property')}}>
                 <BookNow />
                 </div>
                 <div className="text-right">

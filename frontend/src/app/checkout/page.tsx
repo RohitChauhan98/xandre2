@@ -3,11 +3,11 @@ import Navbar from '@/components/navbars/Navbar'
 import Footer from '@/components/ui/Footer'
 import Image from 'next/image'
 import React, { useState } from 'react'
-import downArrow from "../../../../public/assets/icons/select-down.png"
-import room from "../../../../public/assets/icons/room.png"
-import facilities from "../../../../public/assets/icons/facilities.png"
-import nosmoking from "../../../../public/assets/icons/no-smoking.png"
-import location from "../../../../public/assets/icons/location.png"
+import downArrow from "/public/assets/icons/select-down.png"
+import room from "/public/assets/icons/room.png"
+import facilities from "/public/assets/icons/facilities.png"
+import nosmoking from "/public/assets/icons/no-smoking.png"
+import location from "/public/assets/icons/location.png"
 import ButtonLightBordered from '@/components/ui/buttons/ButtonLightBordered'
 import ButtonLightGradient from '@/components/ui/buttons/ButtonLightGradient'
 import { useRouter } from 'next/navigation'
@@ -261,7 +261,7 @@ function Page() {
                 </div>
                 <ButtonLightBordered className='h-[35px] w-[126px]'>Learn more</ButtonLightBordered>
               </section>
-              <ButtonLightGradient onClick={()=>{router.push('/en/checkout/selection-details')}} background="bg-white" className='h-[56px] w-[360px] mt-12 text-[18px] font-semibold' >Next: Final step</ButtonLightGradient>
+              <ButtonLightGradient onClick={()=>{router.push('checkout/selection-details')}} background="bg-white" className='h-[56px] w-[360px] mt-12 text-[18px] font-semibold' >Next: Final step</ButtonLightGradient>
 
             </div>
           </form>

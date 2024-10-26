@@ -221,7 +221,7 @@ function Career() {
                 {/* apply button */}
                 <div className="flex flex-col w-[296px] gap-2 md:col-span-2 mt-[40px]">
                   <ButtonLightGradient
-                  onClick={()=>{router.push(`/en/career/apply`)}}
+                  onClick={()=>{router.push(`/career/apply`)}}
                     imgHeight={28}
                     imgWidth={28}
                     background="bg-white"

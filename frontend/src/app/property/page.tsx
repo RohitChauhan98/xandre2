@@ -67,7 +67,7 @@ export default function Property() {
                             <span className="text-glass-400">From</span>
                             <span className="text-2xl ml-2 text-oxford-blue">¥56,029</span>
                         </div>
-                        <div onClick={()=>{router.push('/en/checkout')}}>
+                        <div onClick={()=>{router.push('/checkout')}}>
                             <BookNow />
                         </div>
                     </div>

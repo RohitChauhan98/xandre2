@@ -2,11 +2,11 @@ import Navbar from "@/components/navbars/Navbar";
 import Footer from "@/components/ui/Footer";
 import Image from "next/image";
 import React from "react";
-import search from "../../../../../public/assets/icons/search.png";
-import location from "../../../../../public/assets/icons/location.png";
-import downArrow from "../../../../../public/assets/icons/select-down.png";
-import linkedin from "../../../../../public/assets/icons/linkedin_vector.svg";
-import skills from "../../../../../public/assets/icons/skills.png";
+import search from "/public/assets/icons/search.png";
+import location from "/public/assets/icons/location.png";
+import downArrow from "/public/assets/icons/select-down.png";
+import linkedin from "/public/assets/icons/linkedin_vector.svg";
+import skills from "/public/assets/icons/skills.png";
 import ButtonDark from "@/components/ui/buttons/ButtonDark";
 
 const jobData = {
@@ -15,7 +15,7 @@ const jobData = {
   location: "Okinawa, Japan",
   department: "Finance",
   description:
-    "The Know Your Client (KYC) Analyst focuses on client onboarding (COB) and exceptions in line with regulatory standards and jurisdictions.  The KYC Analyst provides regular communication to senior bank stakeholders on changes in KYC, Anti Money Laundering (‘AML’) and Anti Financial Crime (‘AFC’) areas and ensures any changes required are implemented with minimum disruptions.  The KYC Analyst also assists the bank’s clients, managing all KYC and account opening requirements with appropriate governance and controls. They operate in an environment of strict adherence to Standard Operating procedures (‘SOP’s) and Operation Level Agreements (OLA’s) to achieve accurate and timely account opening to help execute trades",
+    "The Know Your Client (KYC) Analyst focuses on client onboarding (COB) and exceptions in line with regulatory standards and jurisdictions.The KYC Analyst provides regular communication to senior bank stakeholders on changes in KYC, Anti Money Laundering (‘AML’) and Anti Financial Crime (‘AFC’) areas and ensures any changes required are implemented with minimum disruptions.The KYC Analyst also assists the bank’s clients, managing all KYC and account opening requirements with appropriate governance and controls. They operate in an environment of strict adherence to Standard Operating procedures (‘SOP’s) and Operation Level Agreements (OLA’s) to achieve accurate and timely account opening to help execute trades",
   benefits: [
     "Best in class leave policy",
     "Gender neutral parental leaves",

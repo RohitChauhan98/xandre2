@@ -1,13 +1,13 @@
 'use client'
 import React from 'react'
-import stays from "../../../public/assets/stays.png";
-import airplane from "../../../public/assets/airplane.png";
-import building_plane from "../../../public/assets/building_plane.png";
-import building from "../../../public/assets/building.png";
-import car from "../../../public/assets/car.png";
-import checkin from "../../../public/assets/icons/checkin-out.png";
-import user from "../../../public/assets/icons/user.png";
-import search from "../../../public/assets/icons/search.png";
+import stays from "/public/assets/stays.png";
+import airplane from "/public/assets/airplane.png";
+import building_plane from "/public/assets/building_plane.png";
+import building from "/public/assets/building.png";
+import car from "/public/assets/car.png";
+import checkin from "/public/assets/icons/checkin-out.png";
+import user from "/public/assets/icons/user.png";
+import search from "/public/assets/icons/search.png";
 import Image from "next/image";
 import ButtonDark from "@/components/ui/buttons/ButtonDark";
 import ButtonLightBordered from "@/components/ui/buttons/ButtonLightBordered";
@@ -177,7 +177,7 @@ function SearchDestination() {
             </div>
             {/* buttons */}
             <div className="flex justify-between items-center w-full mt-4 md:mt-10">
-              <ButtonDark onClick={()=>{router.push('/en/destination')}} className="w-full md:w-[353px] h-[40px]" imgHeight={28} imgWidth={28}>Search</ButtonDark>
+              <ButtonDark onClick={()=>{router.push('/destination')}} className="w-full md:w-[353px] h-[40px]" imgHeight={28} imgWidth={28}>Search</ButtonDark>
               <ButtonLightBordered className="hidden md:block h-[35px] w-[135px]">+ Add a flight</ButtonLightBordered>
             </div>
           </div>

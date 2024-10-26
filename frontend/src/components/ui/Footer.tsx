@@ -42,9 +42,9 @@ const footerData = [
   {
     category: "About",
     links: [
-      { name: "About Xandre", url: "https://xandre-dusky.vercel.app/about" },
+      { name: "About Xandre", url: "/about" },
       { name: "How we work", url: "/how-we-work" },
-      { name: "Careers", url: "https://xandre-dusky.vercel.app/en/career" },
+      { name: "Careers", url: "/career/apply" },
       { name: "Investor relations", url: "/investor-relation" }
     ]
   }
@@ -81,7 +81,7 @@ function Footer() {
               <div className="hidden md:flex flex-col gap-4">
                 {
                   data.links.map(link=>(
-                    <p onClick={()=>{router.push(`/${link.url}`)}} className="text-[14px] font-medium leading-[20px] text-alice-blue-400 cursor-pointer">
+                    <p onClick={()=>{router.push(link.url)}} className="text-[14px] font-medium leading-[20px] text-alice-blue-400 cursor-pointer">
                       {link.name}
                     </p>
                   ))
